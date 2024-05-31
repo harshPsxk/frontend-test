@@ -1,0 +1,38 @@
+.vision-clarification-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+}
+
+.vision-clarification {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.next-button {
+    position: absolute;
+    width: 108px;
+    height: 52px;
+    background: #5661F6;
+    border-radius: 8px;
+    color: white;
+    border: none;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: left;
+    cursor: pointer;
+    bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.next-button:hover {
+    background: #4553c7;
+}

@@ -1,0 +1,57 @@
+.card {
+    width: 399.45px;
+    height: 170.47px;
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    justify-content: flex-start;
+    gap: 10px; 
+    border-radius: 20px; 
+    border: 2px solid transparent; 
+    background: white; 
+    box-shadow: 0px 4px 70px 0px #F2F4FF;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .card.selected {
+    background: linear-gradient(white, white) padding-box, 
+                linear-gradient(102.97deg, rgba(79, 96, 248, 0.7) -10.08%, rgba(125, 17, 233, 0.7) 49.37%, rgba(244, 34, 97, 0.7) 108.82%) border-box;
+  }
+  
+  .card h2 {
+    width: auto;
+    height: 30px;
+    margin: 0; 
+    font-family: 'DM Sans', sans-serif; 
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: rgba(57, 58, 94, 0.5); 
+    box-shadow: 0px 4px 70px 0px rgba(238, 240, 249, 1);
+    opacity: 1;
+  }
+  
+  .card p {
+    margin: 10px 0 0 0; 
+    font-family: 'DM Sans', sans-serif; 
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    line-height: 22px;
+    color: rgba(30, 32, 79, 1);
+    padding-left: 20px; 
+    text-indent: -10px; 
+    position: relative;
+    letter-spacing: 0.5px;
+  }
+  
+  .card p::before {
+    content: '•'; 
+    color: rgba(30, 32, 79, 1); 
+    padding-right: 2px;
+    left: 0;
+    top: 0;
+  }
+  

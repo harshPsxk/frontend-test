@@ -1,0 +1,18 @@
+.next-button {
+    position: absolute;
+    width: 108px;
+    height: 52px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20px;
+    background: #5661F6;
+    border-radius: 8px;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.next-button:hover {
+    background: #4553c7;
+}
